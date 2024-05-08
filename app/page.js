@@ -17,8 +17,9 @@ import ContactUs from "@/section/ContactUs";
 
 
 export default function LandingPage() {
+  //RAhman
 
-
+// what is happning how are you?
   const [currentSlider, setCurrentSlider] = useState(0);
   const sliders = [{ img: "https://firebasestorage.googleapis.com/v0/b/endgame-team-project.appspot.com/o/images%2Fimages%20(2).jpg?alt=media&token=216d147c-d9f4-42c2-87fd-f009ec7644f0", tags: "Room", }, { img: "https://firebasestorage.googleapis.com/v0/b/endgame-team-project.appspot.com/o/images%2Fdownload%20(6).jpg?alt=media&token=70e439ed-ab81-4778-9ae1-c8027e3487bc", tags: "Room", }, { img: "https://firebasestorage.googleapis.com/v0/b/endgame-team-project.appspot.com/o/images%2Fdownload%20(4).jpg?alt=media&token=d55724b1-bb36-4d25-8e1c-dc985c7e9de1", tags: "Room", }, { img: "https://firebasestorage.googleapis.com/v0/b/endgame-team-project.appspot.com/o/images%2Fdownload%20(5).jpg?alt=media&token=32cc381a-a2ac-4a9b-a27c-0c4cedf47372", tags: "Room", }, { img: "https://firebasestorage.googleapis.com/v0/b/endgame-team-project.appspot.com/o/images%2Fhq720.jpg?alt=media&token=78009533-95c9-4775-a7c6-b1cdee21bd5f", tags: "Room", },];
   const nextSlider = () => setCurrentSlider((currentSlider) => (currentSlider === sliders.length - 1 ? 0 : currentSlider + 1));
